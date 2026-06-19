@@ -1,4 +1,4 @@
-# ESP32-To-GAME
+# ESP32-To-GAME 基于ESP NOW的斯普拉顿2D联机游戏
 # ESP-NOW 双人对战射击游戏 — 完整设计文档
 
 ## 目录
