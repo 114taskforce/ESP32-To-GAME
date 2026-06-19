@@ -944,20 +944,20 @@ src/
 
 | 功能 | 宏/常量 | 值 | 定义位置 |
 |---|---|---|---|
-| TFT 时钟 | `TFT_SCLK` | GPIO12 | [platformio.ini](platformio.ini) |
-| TFT 主出从入 | `TFT_MOSI` | GPIO11 | [platformio.ini](platformio.ini) |
-| TFT 主入从出 | `TFT_MISO` | GPIO13 | [platformio.ini](platformio.ini)（未接线，仅占位） |
-| TFT 片选 | `TFT_CS` | GPIO10 | [platformio.ini](platformio.ini) |
-| TFT 数据/命令 | `TFT_DC` | GPIO9 | [platformio.ini](platformio.ini) |
-| TFT 复位 | `TFT_RST` | GPIO14 | [platformio.ini](platformio.ini) |
-| TFT 背光 | `TFT_BL` | GPIO8 | [platformio.ini](platformio.ini) |
-| 摇杆 X 轴 | `PIN_JOY_X` | GPIO1 | [src/config.h](src/config.h)（ADC1_CH0） |
-| 摇杆 Y 轴 | `PIN_JOY_Y` | GPIO2 | [src/config.h](src/config.h)（ADC1_CH1） |
-| 按钮 A（潜入） | `PIN_BTN_A` | GPIO4 | [src/config.h](src/config.h) |
-| 按钮 B（攻击） | `PIN_BTN_B` | GPIO5 | [src/config.h](src/config.h) |
-| 按钮 C（技能） | `PIN_BTN_C` | GPIO6 | [src/config.h](src/config.h) |
-| 按钮 D（预留） | `PIN_BTN_D` | GPIO7 | [src/config.h](src/config.h) |
-| 蜂鸣器 | `PIN_AUDIO` | GPIO17 | [src/config.h](src/config.h) |
+| TFT 时钟 | `TFT_SCLK` | GPIO12 | [ESP_game/platformio.ini](platformio.ini) |
+| TFT 主出从入 | `TFT_MOSI` | GPIO11 | [ESP_game/platformio.ini](platformio.ini) |
+| TFT 主入从出 | `TFT_MISO` | GPIO13 | [ESP_game/platformio.ini](platformio.ini)（未接线，仅占位） |
+| TFT 片选 | `TFT_CS` | GPIO10 | [ESP_game/platformio.ini](platformio.ini) |
+| TFT 数据/命令 | `TFT_DC` | GPIO9 | [ESP_game/platformio.ini](platformio.ini) |
+| TFT 复位 | `TFT_RST` | GPIO14 | [ESP_game/platformio.ini](platformio.ini) |
+| TFT 背光 | `TFT_BL` | GPIO8 | [ESP_game/platformio.ini](platformio.ini) |
+| 摇杆 X 轴 | `PIN_JOY_X` | GPIO1 | [ESP_game/src/config.h](src/config.h)（ADC1_CH0） |
+| 摇杆 Y 轴 | `PIN_JOY_Y` | GPIO2 | [ESP_game/src/config.h](src/config.h)（ADC1_CH1） |
+| 按钮 A（潜入） | `PIN_BTN_A` | GPIO4 | [ESP_game/src/config.h](src/config.h) |
+| 按钮 B（攻击） | `PIN_BTN_B` | GPIO5 | [ESP_game/src/config.h](src/config.h) |
+| 按钮 C（技能） | `PIN_BTN_C` | GPIO6 | [ESP_game/src/config.h](src/config.h) |
+| 按钮 D（预留） | `PIN_BTN_D` | GPIO7 | [ESP_game/src/config.h](src/config.h) |
+| 蜂鸣器 | `PIN_AUDIO` | GPIO17 | [ESP_game/src/config.h](src/config.h) |
 
 ### 17.3 电路接线
 
